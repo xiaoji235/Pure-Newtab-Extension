@@ -1,3 +1,3 @@
 window.onload=function(){
-    window.location.href = "http://www.xiaojitx.tk/newtab";
+    window.location.href = "https://www.xiaojitx.tk/newtab";
 }
