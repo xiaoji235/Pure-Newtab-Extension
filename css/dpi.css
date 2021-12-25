@@ -1,0 +1,119 @@
+/**适应分辨率**/
+@media screen and (max-width:1010px) {
+	.yiyan{
+		bottom: 100px;
+	}
+}
+@media screen and (max-width:830px) {
+	button#search-btn{
+		    width: 10% !important;
+	}
+	#search{
+		    width: 95% !important;
+	}
+	#search-box .s-key{
+		width: 90% !important;
+	}
+	div#box{
+		width: 100% !important;
+	}
+	.space-tips{
+			width: 100% !important;
+		    margin: 0px 10px 0px -10px !important;
+	}
+}
+@media screen and (max-width:745px) {
+	div.Search>div[data-v-0b1f3c5b]{
+		width: 95%
+	}
+	div.Search>div>div[data-v-0b1f3c5b]{
+		width:85%
+	}
+	div.Search>div>button[data-v-0b1f3c5b]{
+		width: 70px
+	}
+}
+@media screen and (max-width:504px) {
+	.CommonSite>nav>a{
+		width: 25%;
+	}
+	.CommonSite>nav>div.add{
+		width: 25%;
+	}
+}
+@media screen and (max-width:400px) {
+	div.Search>div>div[data-v-0b1f3c5b]{
+		width: 80%
+	}
+}
+@media screen and (max-width:360px) {
+	div.Search>div>div[data-v-0b1f3c5b]{
+		width: 75%
+	}
+	div.Search>div[data-v-0b1f3c5b]{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	div#settingpage{
+		width: 85%;
+	}
+	div#yijian{
+		width: 85%;
+	}
+}
+@media screen and (max-width:280px) {
+	div.Search>div>button[data-v-0b1f3c5b]{
+		width: 55px
+	}
+}
+
+/*高*/
+@media screen and (max-height:670px) {
+	.CommonSite{
+		margin:20% auto
+	}
+	.di{
+		font-size: 0
+	}
+}
+
+
+/* WebKit browsers */
+input::-webkit-input-placeholder {
+    color: rgb(211, 211, 211);
+    font-size: 16px;
+}
+/* Mozilla Firefox 4 to 18 */
+input:-moz-placeholder {
+    color: rgb(211, 211, 211);
+    opacity: 1;
+    font-size: 16px;
+}
+/* Mozilla Firefox 19+ */
+input::-moz-placeholder {
+    color: rgb(211, 211, 211);
+    opacity: 1;
+    font-size: 16px;
+}
+/* Internet Explorer 10+ */
+input:-ms-input-placeholder {
+    color: rgb(211, 211, 211);
+    font-size: 16px;
+}
+
+/**防选中**/
+.not-select{
+    -moz-user-select:none; /*火狐*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -ms-user-select:none; /*IE10*/
+    -khtml-user-select:none; /*早期浏览器*/
+    user-select:none;
+}
+.no-touch {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
