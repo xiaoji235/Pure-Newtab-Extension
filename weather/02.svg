@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>overcast</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="44" height="44"></rect>
+    </defs>
+    <g id="overcast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Combined-Shape">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <path d="M33.8595121,35.9915962 C37.8462963,35.8046928 41,32.5087272 41,28.5 C41,25.0199038 38.6087658,22.0187371 35.2757812,21.2107575 L33.097255,20.6826409 L32.9862482,18.4437658 C32.696917,12.6082983 27.8684863,8 22,8 C17.5227504,8 13.5446047,10.6989589 11.8462735,14.7594739 L11.3093498,16.0431968 L9.98253135,16.4624631 C5.85959007,17.7652865 3,21.6064621 3,26 C3,31.5228475 7.4771525,36 13,36 L33.6802525,36 L33.8595121,35.9915962 Z M13,39 C5.82029825,39 0,33.1797017 0,26 C0,20.1869391 3.81541847,15.2650169 9.07860605,13.6018829 C11.1916748,8.54977805 16.1812898,5 22,5 C29.4956408,5 35.6154401,10.890678 35.9825675,18.2952039 C40.5833831,19.4105301 44,23.5562682 44,28.5 C44,34.1313769 39.5668168,38.7273284 34,38.9883049 L34,39 L13,39 Z" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

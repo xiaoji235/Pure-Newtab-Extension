@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>moderatetoheavyrain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="44" height="44"></rect>
+    </defs>
+    <g id="moderatetoheavyrain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Combined-Shape">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <rect id="Rectangle-8" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="15" y="23" width="3" height="8" rx="1.5"></rect>
+                <rect id="Rectangle-8" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="15" y="35" width="3" height="8" rx="1.5"></rect>
+                <rect id="Rectangle-8" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="27" y="23" width="3" height="8" rx="1.5"></rect>
+                <rect id="Rectangle-8" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="27" y="35" width="3" height="8" rx="1.5"></rect>
+                <rect id="Rectangle-8" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="21" y="23" width="3" height="8" rx="1.5"></rect>
+                <rect id="Rectangle-8" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="21" y="35" width="3" height="8" rx="1.5"></rect>
+                <path d="M35.5569461,29.7676762 C35.7362662,29.7329291 35.8926492,29.6971972 36.0260954,29.6604805 C40.0466262,28.5542623 43,24.8720299 43,20.5 C43,15.3654442 38.9265917,11.1822838 33.8350544,11.0057981 C32.8852883,5.32751897 27.9480173,1 22,1 C16.7129709,1 12.2245266,4.41914837 10.6252246,9.16688773 C5.72075612,10.0508669 2,14.3409189 2,19.5 C2,24.5644988 5.58558015,28.7915405 10.3566904,29.7895819 C10.3745922,29.7933267 10.3929787,29.7970605 10.4118501,29.8007834 C11.1669073,29.9497228 11.8997506,29.4583808 12.048704,28.7033263 C12.0618203,28.6368391 12.070069,28.5694836 12.0733844,28.5017962 C12.1124597,27.7040408 11.5741574,26.9929828 10.7957349,26.8141006 C10.786692,26.8120227 10.777791,26.80994 10.7690317,26.8078526 C7.4524765,26.0174884 5,23.0343036 5,19.5 C5,15.8572626 7.6171346,12.7574045 11.1573686,12.1193143 L12.902259,11.8048161 L13.4682562,10.1245785 C14.6909365,6.49489033 18.1068583,4 22,4 C26.4129537,4 30.1566978,7.19933403 30.8761593,11.5007119 L31.2806591,13.919058 L33.7311291,14.0039975 C37.2212602,14.1249744 40,16.9958624 40,20.5 C40,23.4602126 38.0150983,25.9734556 35.2889142,26.7513626 C35.2568728,26.7605055 35.2229567,26.7695619 35.1871658,26.7785317 C34.4108961,26.9731047 33.880883,27.6898708 33.9223246,28.4890804 C33.9616462,29.2474059 34.6082669,29.8302738 35.3665924,29.7909522 C35.4305086,29.7876379 35.4941154,29.7798648 35.5569461,29.7676762 Z" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>heavysnowtosnowstorm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="44" height="44"></rect>
+    </defs>
+    <g id="heavysnowtosnowstorm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Combined-Shape">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="Group-5" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(8.000000, 15.000000)" id="Rectangle-12">
+                        <rect transform="translate(6.500000, 6.000000) rotate(90.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                        <path d="M3.35288568,2.45096189 L11.1471143,6.95096189 C11.8645533,7.36517546 12.110366,8.28256106 11.6961524,9 C11.2819389,9.71743894 10.3645533,9.96325167 9.64711432,9.54903811 L1.85288568,5.04903811 C1.13544675,4.63482454 0.889634015,3.71743894 1.30384758,3 C1.71806114,2.28256106 2.63544675,2.03674833 3.35288568,2.45096189 Z"></path>
+                        <path d="M11.1471143,5.04903811 L3.35288568,9.54903811 C2.63544675,9.96325167 1.71806114,9.71743894 1.30384758,9 C0.889634015,8.28256106 1.13544675,7.36517546 1.85288568,6.95096189 L9.64711432,2.45096189 C10.3645533,2.03674833 11.2819389,2.28256106 11.6961524,3 C12.110366,3.71743894 11.8645533,4.63482454 11.1471143,5.04903811 Z"></path>
+                    </g>
+                </g>
+                <g id="Group-5" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(12.000000, 31.000000)" id="Rectangle-12">
+                        <rect transform="translate(6.500000, 6.000000) rotate(90.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                        <rect transform="translate(6.500000, 6.000000) rotate(30.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                        <rect transform="translate(6.500000, 6.000000) rotate(150.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                    </g>
+                </g>
+                <g id="Group-5" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(27.000000, 31.000000)" id="Rectangle-12">
+                        <rect transform="translate(6.500000, 6.000000) rotate(90.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                        <rect transform="translate(6.500000, 6.000000) rotate(30.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                        <rect transform="translate(6.500000, 6.000000) rotate(150.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                    </g>
+                </g>
+                <g id="Group-5" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(22.000000, 15.000000)" id="Rectangle-12">
+                        <rect transform="translate(6.500000, 6.000000) rotate(90.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                        <rect transform="translate(6.500000, 6.000000) rotate(30.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                        <rect transform="translate(6.500000, 6.000000) rotate(150.000000) translate(-6.500000, -6.000000) " x="0.5" y="4.5" width="12" height="3" rx="1.5"></rect>
+                    </g>
+                </g>
+                <path d="M43.5,21 C43.5,23.5843334 42.5170093,26.023819 40.7711309,27.9230496 C40.2104849,28.532941 39.2615768,28.5728622 38.6516854,28.0122161 C38.041794,27.4515701 38.0018728,26.502662 38.5625189,25.8927706 C39.8074448,24.5384945 40.5,22.8197819 40.5,21 C40.5,16.9958636 37.1318259,13.6767803 32.8446786,13.5068178 L31.579237,13.4566498 L31.41653,12.2007096 C30.7751447,7.24983571 26.5395458,3.5 21.5,3.5 C17.0801737,3.5 13.2219473,6.3934932 11.9411746,10.5521127 L11.6632944,11.454379 L10.7296015,11.594091 C6.59806179,12.212309 3.5,15.7782093 3.5,20 C3.5,21.8109411 4.06597231,23.5326944 5.10257808,24.9687153 C5.58745435,25.6404195 5.43600039,26.5780132 4.76429621,27.0628895 C4.09259203,27.5477657 3.15499832,27.3963118 2.67012206,26.7246076 C1.26755554,24.7816175 0.5,22.4466246 0.5,20 C0.5,14.6017298 4.24193031,9.99774661 9.37538779,8.80098107 C11.2877846,3.8624363 16.067011,0.5 21.5,0.5 C27.6409013,0.5 32.862029,4.78112856 34.1802478,10.621778 C39.4590426,11.394034 43.5,15.7452864 43.5,21 Z" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

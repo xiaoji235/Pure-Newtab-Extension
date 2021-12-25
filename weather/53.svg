@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>haze</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="44" height="44"></rect>
+    </defs>
+    <g id="haze" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Combined-Shape">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <path d="M12.5,32.5 C6.42486775,32.5 1.5,27.5751322 1.5,21.5 C1.5,15.4248678 6.42486775,10.5 12.5,10.5 C18.5751322,10.5 23.5,15.4248678 23.5,21.5 C23.5,27.5751322 18.5751322,32.5 12.5,32.5 Z M12.5,29.5 C16.918278,29.5 20.5,25.918278 20.5,21.5 C20.5,17.081722 16.918278,13.5 12.5,13.5 C8.081722,13.5 4.5,17.081722 4.5,21.5 C4.5,25.918278 8.081722,29.5 12.5,29.5 Z" id="Oval-13" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <path d="M31.5,32.5 C25.4248678,32.5 20.5,27.5751322 20.5,21.5 C20.5,15.4248678 25.4248678,10.5 31.5,10.5 C37.5751322,10.5 42.5,15.4248678 42.5,21.5 C42.5,27.5751322 37.5751322,32.5 31.5,32.5 Z M31.5,29.5 C35.918278,29.5 39.5,25.918278 39.5,21.5 C39.5,17.081722 35.918278,13.5 31.5,13.5 C27.081722,13.5 23.5,17.081722 23.5,21.5 C23.5,25.918278 27.081722,29.5 31.5,29.5 Z" id="Oval-13" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="7.5" cy="39.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="14.5" cy="39.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="21.5" cy="39.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="28.5" cy="39.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="35.5" cy="39.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="7.5" cy="3.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="14.5" cy="3.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="21.5" cy="3.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="28.5" cy="3.5" r="1.5"></circle>
+                <circle id="Oval-10" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" cx="35.5" cy="3.5" r="1.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
