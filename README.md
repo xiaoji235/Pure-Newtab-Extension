@@ -1,13 +1,29 @@
 # Pure-Newtab-Plugin
 Pure 起始页插件（Pure 新建标签页浏览器插件）
-- 插件版本：`1.0.0`
-- 更新时间：2021-07-06
+- 插件版本：`2.0.0`
+- 更新时间：2021-12-25
 
-# 说明
-- 此插件不会更新，只有在插件内容发生变化时才会更新！
-- 插件不会更新，但是主页可能会随着[DEMO](http://xiaoji235.github.io)的更新而更新（就是远程更新主页界面，对插件没影响）！
-- 如果不喜欢新界面，可以去[Pure-Newtab](https://github.com/xiaoji235/Pure-Newtab)下载源码并部署到自己的github博客或将[Pure-Newtab](https://github.com/xiaoji235/Pure-Newtab)源码上传到自己搭建服务器并修改js/index.js里面的域名使用！（上传到github博客的也要修改js/index.js里面的域名）
-- 插件有Bug🪲的话可以在[issues](https://github.com/xiaoji235/Pure-Newtab-plugin/issues)上报，谢谢！
+## 重大更新
+- 资源本地化，不依赖服务器，资源秒加载，支持离线使用（在线壁纸可能不会显示，没试过）
+- 所有设置本地保存，清除cookie会复原
+- 内置远程公告，有更新会在里面标出
+- 可自定义背景，注意，清除cookie会还原
 
-# 截图
-![ ](https://dl.img.timecdn.cn/2021/07/06/preview.png)
+## 说明
+如果浏览器不支持使用插件，可以将![此页面](https://xiaoji235.github.io)设置成主页！
+
+## 使用方法
+- 首先下载压缩包
+- 然后将资源解压到一个文件夹内，注意，该文件夹不能删除！
+- 接着把此文件夹移动到安全的地方（只要不被删除即可）
+- 进入浏览器把开发者模式和其他扩展选项打开
+- 将文件夹拖入浏览器扩展界面即可！
+
+## 存在的问题
+- 为什么不直接发crx插件？
+  - 目前此插件由于未知问题会闪退（自动关闭），浏览器会提示扩展损坏！
+- 会不会有安全问题？
+  - 所有资源除自定义壁纸和远程公告，其他资源都在本地使用的，且本网页为静态网页！
+
+## 截图
+![ ](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/img.png)
