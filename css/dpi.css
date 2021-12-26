@@ -102,18 +102,14 @@ input:-ms-input-placeholder {
 }
 
 /**防选中**/
-.not-select{
-    -moz-user-select:none; /*火狐*/
-    -webkit-user-select:none; /*webkit浏览器*/
-    -ms-user-select:none; /*IE10*/
-    -khtml-user-select:none; /*早期浏览器*/
-    user-select:none;
-}
-.no-touch {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+html, body,footer,table,iframe,div,li,ul,button,a,i,em,b,img,h1,h2,h3,dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-moz-user-select:none; 
+	-webkit-user-select:none; 
+	-ms-user-select:none; 
+	-khtml-user-select:none;
+	user-select:none;
+	-webkit-touch-callout: none;
 }
