@@ -7,7 +7,7 @@ backurl=localStorage.getItem("backurl")
 if(backurl){
 	document.getElementsByTagName("bg")[0].style="background-image: url("+backurl+");"
 }else{
-	document.getElementsByTagName("bg")[0].style="background-image: url(images/bg.png);"
+	document.getElementsByTagName("bg")[0].style="background-image: url(image/bg.png);"
 }
 
 
