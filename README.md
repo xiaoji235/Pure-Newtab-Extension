@@ -1,4 +1,4 @@
-# Pure-Newtab-Plugin
+# Pure-Newtab-Extension
 Pure 起始页扩展（Pure 新建标签页浏览器扩展）
 - 扩展版本：`2.1.0`
 - 更新时间：2022-01-09
@@ -32,6 +32,7 @@ Pure 起始页扩展（Pure 新建标签页浏览器扩展）
   - 所有资源除自定义壁纸和远程公告，其他资源都在本地使用的，且本网页为静态网页！
 - 与[网页版](https://xiaoji235.github.io)有啥区别？
   - 网页版实时更新，频率较高，类似于beta版本，扩展版本仅在大更新时更新，如果长期没有更新偶尔会有小更新！
+  - 建议使用扩展，网页版参考一下就好了。
 
 ## 截图
 ![ ](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/img.png)
