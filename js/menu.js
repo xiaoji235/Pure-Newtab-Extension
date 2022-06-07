@@ -1,4 +1,4 @@
-const searchEngines = [{
+﻿const searchEngines = [{
     "id": 0,
     "name": "百度",
     "img": "url('search\/baidu.svg')",
@@ -50,5 +50,5 @@ const searchEngines = [{
     "id": 8,
     "name": "F 搜索",
     "img": "url('search\/fsou.svg')",
-    "url": "https://fsou.cc/search?q="
+    "url": "https:\/\/fsoufsou.com\/search?q="
 }];
