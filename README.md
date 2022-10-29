@@ -38,3 +38,9 @@ Pure 起始页扩展（Pure 新建标签页浏览器扩展）
 
 ## 截图
 ![ ](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/img.png)
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/xiaoji235/Pure-Newtab-Extension.svg)](https://starchart.cc/xiaoji235/Pure-Newtab-Extension)
+
