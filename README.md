@@ -1,6 +1,6 @@
 # Pure-Newtab-Extension
 
-![img](https://dl3.img.timecdn.cn/2022/11/19/pure.png)
+<!--![img](https://dl3.img.timecdn.cn/2022/11/19/pure.png)-->
 
 Pure 起始页扩展（Pure 新建标签页浏览器扩展）
 - 扩展版本：`2.1.2`
