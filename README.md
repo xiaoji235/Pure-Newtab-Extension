@@ -10,10 +10,10 @@ Pure 起始页扩展（Pure 新建标签页浏览器扩展）
   - 新增公告
   - 修复页脚文字颜色显示问题
 
-###支持的图片类型
-<P>JPG JPEG PNG <strong>SVG</strong></P>
-###支持的图片类型
-<P>BMP WEBP ICO GIF</P>
+- 支持的图片类型
+ - JPG JPEG PNG <strong>SVG</strong>
+- 支持的图片类型
+ - BMP WEBP ICO GIF
 
 ## 重大更新
 - 修复分辨率bug
