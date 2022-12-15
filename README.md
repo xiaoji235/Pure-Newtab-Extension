@@ -10,6 +10,11 @@ Pure 起始页扩展（Pure 新建标签页浏览器扩展）
   - 新增公告
   - 修复页脚文字颜色显示问题
 
+###支持的图片类型
+<P>JPG JPEG PNG <strong>SVG</strong></P>
+###支持的图片类型
+<P>BMP WEBP ICO GIF</P>
+
 ## 重大更新
 - 修复分辨率bug
 - 修改f搜域名地址
