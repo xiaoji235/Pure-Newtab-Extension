@@ -1,9 +1,9 @@
 {
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "__MSG_extName__",
    "description": "__MSG_extDescription__",
-   "version": "2.1.1",
+   "version": "2.3.5",
    "default_locale": "zh_CN",
    "minimum_chrome_version": "50",
    "icons": {
@@ -14,9 +14,8 @@
    "chrome_url_overrides": {
       "newtab": "index.html"
    },
-   "browser_action": {
+   "action": {
       "default_popup": "popup.html"
    },
-   "homepage_url": "https://github.com/xiaoji235",
-   "content_security_policy": "script-src 'self' https://xiaoji235.github.io; object-src 'self'"
+   "homepage_url": "https://github.com/xiaoji235"
 }
