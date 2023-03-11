@@ -3,22 +3,16 @@
 <!--![img](https://dl3.img.timecdn.cn/2022/11/19/pure.png)-->
 
 Pure 起始页扩展（Pure 新建标签页浏览器扩展）
-- 扩展版本：`2.1.2`
-- 更新时间：2022-09-13
-- 修改内容(小更新)：
-  - 删除html内的冗余代码
-  - 新增公告
-  - 修复页脚文字颜色显示问题
+- 扩展版本：`3.0.0`
+- 更新时间：2023-03-11
+- 修改内容：
+  - 删除冗余代码，调整链接收藏样式。
 <br><br>
 - 支持的图片类型
   - JPG JPEG PNG <strong>SVG</strong> GIF
 - 可能支持的图片类型
   - BMP WEBP ICO 
 
-## 重大更新
-- 修复分辨率bug
-- 修改f搜域名地址
-- 合并重复代码，精简整体架构
 
 ## 说明
 - <s>如果浏览器不支持使用扩展，可以将[此页面](https://xiaoji235.github.io)设置成主页！</s>
@@ -45,7 +39,7 @@ Pure 起始页扩展（Pure 新建标签页浏览器扩展）
   - 所有资源除自定义壁纸和远程公告，其他资源都在本地使用的，且本网页为静态网页！
 
 ## 截图
-![ ](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/img.png)
+![shotcut](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/img.png)
 
 
 ## Stargazers over time
