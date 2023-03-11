@@ -1,0 +1,57 @@
+html{
+    width:100%;
+    height: 250px;
+}
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(/images/logo_bg.png);
+    background-attachment:fixed;
+    background-size: 100% auto;
+}
+#popup-logo{
+    display:flex;
+    justify-content:center;
+    height: 40px;
+    width:200px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 200px;
+}
+#favicon_text{
+    font-size:16px;
+    margin-left:5px;
+    color:#434343;
+}
+#info-wrap{
+    width:100%;
+    text-align: center;
+}
+#info-a{
+    color:#434343;
+    text-decoration: none;
+    font-size:12px;
+}
+#info-b{
+    color: #434343;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 6px;
+}
+#versionWrap{
+    color:#d1d1d1;
+    font-size:12px;
+    margin-top:4px;
+}
+#CopyRight{
+    color:#d1d1d1;
+    font-size:12px;
+    margin-top:4px;
+}

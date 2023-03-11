@@ -1,0 +1,184 @@
+body {
+	background-color:#333333;
+}
+
+#search {
+	box-shadow:0 4px 10px rgb(0 0 0 / 20%);
+}
+
+#search-box .s-key {
+	background-color:rgba(255,255,255,0.35);
+	    color: white;
+}
+#search-box .s-btn {
+	color:#888888;
+	background-color:rgba(255,255,255,0.35);
+	backdrop-filter:blur(10px);
+}
+button#search-btn {
+	background-color:rgba(255,255,255,0.35);
+	    color: white;
+}
+.s-btn i {
+	font-size:24px;
+	line-height:50px
+}
+#search-box .s-btn:hover {
+	color:#6b7184
+}
+.search-hot-text {
+	background-color:rgba(255,255,255,0.35);
+}
+.search-hot-text .space-line {
+	border-top:1px solid #f2f2f2;
+}
+.search-hot-text li {
+	color:white;
+}
+.search-hot-text li i {
+	color:#e5e5e5;
+
+}
+.search-hot-text li.current {
+	background:#f1f1f1;
+	color:black
+}
+.search-hot-text li:hover {
+	background:#ffffff59;
+	color:black;
+}
+.space-tips .offHistory {
+	color:white
+}
+.space-tips .offHistory:hover {
+	color:#E2D600
+}
+.search-engine {
+	background:#FFFFFF59;
+	box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+.search-engine ul::before {
+	border-bottom:8px solid #ffffff59;
+}
+
+
+.search-engine-list li {
+	background:#fff0;
+	color:#fff;
+}
+.search-engine-list li:hover {
+	background-color:#ffffff59;
+}
+
+/**天气**/
+div#weather>div>div.info {
+	color:#FFFFFF;
+}
+.clock-container p {
+	color:white;
+}
+.colon::after {
+	background-color:#ffffff;
+}
+
+/**一言**/
+div#hitokoto {
+	color:white;
+}
+/**意见反馈**/
+div#yijian {
+	background-color:rgba(255,255,255,0.80);
+	box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
+}
+.noticetxt {
+	color:rgb(0,0,0);
+}
+/**自定义背景控件**/
+div#setbg {
+	background-color:#fff0;
+}
+div#settingpage {
+	background-color:rgba(255,255,255,0.80);
+	box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
+}
+input#backimg {
+	border-bottom:1px solid grey;
+	border:1px solid #eee;
+	color:#333;
+}
+button#save-backimg,#save-backimg64,#start {
+	background-color:#0e6ec6;
+	color:#fff;
+}
+button#close-set {
+	background-color:rgb(255,134,58);
+}
+button#close-yj {
+	background-color:rgb(255,134,58);
+}
+button#nightbtn {
+	background-color:#0e6ec6;
+	color:#fff;
+	flex:1 1 0;
+	border-radius:5px;
+	cursor:pointer;
+	height:24px;
+}
+button#daybtn {
+	display:none;
+}
+/**页脚**/
+.foot {
+	color:#dfdfdf;
+}
+a.footp1 {
+	color:#dfdfdf;
+}
+a.footp2 {
+	color:#dfdfdf;
+}
+a#guanyu {
+	color:#dfdfdf;
+}
+a#open-notice {
+	color:#dfdfdf;
+}
+/**本地壁纸 base64**/
+div#settingpage2 {
+	background-color:rgba(255,255,255,0.80);
+	backdrop-filter:blur(10px);
+	box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
+}
+button#local-bg {
+	background-color:#0e6ec6;
+	color:#fff;
+}
+buttom#mainbg {
+	background-color:#0e6ec6 !important;
+}
+
+button#close-localbg {
+	background-color:rgb(255,134,58);
+}
+/**链接**/
+.url-icon:hover{
+background-color: rgba(255,255,255,0.35);
+}
+.url-title{
+color:white;
+}
+div#link-set {
+	background-color:rgba(255,255,255,0.80);
+	box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
+	background-color: rgb(219 219 219 / 80%);
+}
+input#title {
+	border-bottom:1px solid grey;
+	border:1px solid #eee;
+	color:#333;
+}
+input#url {
+	border-bottom:1px solid grey;
+	border:1px solid #eee;
+	color:#333;
+}

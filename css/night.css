@@ -1,0 +1,205 @@
+body {
+	background-color:#333333;
+}
+/**搜索**/
+#search {
+	box-shadow:0 4px 10px rgb(0 0 0 / 20%);
+}
+#search-box .s-key {
+	background-color:rgba(30,30,30,.9);
+	color:white
+}
+#search-box .s-btn {
+	color:#888888;
+	background-color:#ffffff59;
+	backdrop-filter:blur(10px);
+}
+button#search-btn {
+	background-color:rgba(30,30,30,.9);
+	border-radius:0 10px 10px 0;
+	color:white;
+}
+#search-box .s-btn:hover {
+	color:#6b7184
+}
+.search-hot-text {
+	background:rgba(30,30,30,.9);
+}
+.search-hot-text .space-line {
+	width:776px;
+	border-top:1px solid #f2f2f2;
+}
+.search-hot-text li {
+	color:white;
+}
+.search-hot-text li i {
+	color:#e5e5e5;
+}
+.search-hot-text li.current {
+	background:#f1f1f1;
+	color:black
+}
+.search-hot-text li:hover {
+	background:#ffffff59;
+	color:black;
+}
+.space-tips .offHistory {
+	color:white
+}
+.space-tips .offHistory:hover {
+	color:#E2D600
+}
+.search-engine {
+	background-color:rgba(30,30,30,.9);
+	box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+	border-top:7px solid transparent;
+	border-right:8px solid transparent;
+	border-bottom:8px solid rgba(30,30,30,.9);
+	border-left:8px solid transparent;
+}
+.search-engine-list li {
+	background:#fff0;
+	color:#fff;
+}
+.search-engine-list li:hover {
+	background-color:#ffffff59;
+}
+::marker {
+	color:rgb(0,0,0,0) !important;
+}
+/**天气**/
+div#weather>div>div.info {
+	color:black;
+}
+div#weather>div>div.info>.weather>.weather-icon {
+	filter:invert(1);
+}
+/**时间**/
+.clock-container p {
+	color:black;
+}
+
+.icon {
+	background-color:transparent !important;
+}
+/**一言**/
+div#hitokoto {
+	color:black;
+}
+/**意见反馈**/
+div#yijian {
+	background-color:rgba(30,30,30,.9);
+	backdrop-filter:blur(10px);
+	box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
+}
+.ggl {
+	background-color:rgba(255,255,255,1.0);
+}
+p#title {
+	color:white;
+}
+/**自定义背景控件**/
+div#setbg {
+	background-color:#fff0;
+}
+div#settingpage {
+	color:white;
+	background-color:rgba(30,30,30,.9);
+}
+input#backimg {
+	border-bottom:1px solid grey;
+	border:1px solid #eee;
+	color:#333;
+}
+button#save-backimg,#save-backimg64,#start {
+	background-color:#0e6ec6;
+	color:#fff;
+}
+button#close-set {
+	background-color:rgb(255,134,58);
+	color:white;
+}
+button#close-yj {
+	background-color:rgb(255,134,58);
+	color:white;
+}
+button#nightbtn {
+	color:#fff;
+	flex:1 1 0;
+	border-radius:5px;
+	display:none;
+	cursor:pointer;
+}
+button#daybtn {
+	-webkit-box-flex:1;
+	-ms-flex:1 1 0px;
+	flex:1 1 0;
+	height:24px;
+	background-color:rgb(255,134,58);
+	font-size:12px;
+	color:#fff;
+	cursor:default;
+	border-radius:5px;
+	display:block
+}
+/**页脚**/
+.foot {
+	color:#dfdfdf;
+}
+a.footp1 {
+	color:black;
+}
+a.footp2 {
+	color:black;
+}
+a.guanyu {
+	color:black;
+}
+p#footp {
+	color:black;
+}
+a#guanyu {
+	color:#000000;
+}
+a#open-notice {
+	color:#000000;
+}
+/**本地壁纸 base64**/
+div#settingpage2 {
+	background-color:rgba(30,30,30,.9);
+	box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
+}
+button#local-bg {
+	background-color:#0e6ec6;
+	color:#fff;
+}
+buttom#mainbg {
+	background-color:#0e6ec6 !important;
+}
+button#close-localbg {
+	background-color:rgb(255,134,58);
+	color:white;
+}
+/**链接**/
+.url-icon:hover{
+background-color: rgba(30,30,30,.9);
+}
+.url-title{
+    color: gray;
+}
+div#link-set {
+	background-color:rgba(30,30,30,.9);
+	box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
+	color:white;
+}
+input#title {
+	border-bottom:1px solid grey;
+	border:1px solid #eee;
+	color:#333;
+}
+input#url {
+	border-bottom:1px solid grey;
+	border:1px solid #eee;
+	color:#333;
+}
