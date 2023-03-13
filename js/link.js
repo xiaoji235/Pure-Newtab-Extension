@@ -45,12 +45,13 @@ function createUrlList(){
         const a = document.createElement('a');
         a.className='url-icon'
         a.href= url
+        a.target= '_blank'
         a.innerHTML = html;
 
         //list.appendChild(div);
         list.appendChild(a); 
         const del = document.getElementById(`del_${i}`);
-        del.addEventListener('click',()=>{delUrl(i)})
+                del.addEventListener('click',()=>{delUrl(i);event.preventDefault();})//阻止冒泡
    }
 }
 
@@ -69,8 +70,6 @@ function delUrl(index){
     listArr.splice(index,1);
     localStorage.setItem("list_arr", JSON.stringify(listArr))
     createUrlList()
-    // 阻止冒泡
-    window.event? window.event.cancelBubble = true : e.stopPropagation();
 }
 
 $('#addUrl').click(()=>{
@@ -120,4 +119,3 @@ function isImg({img='https://zhihu.com'}){
     newimg= res[1]+res[2]+'/favicon.ico';
     return newimg;
 }
-
