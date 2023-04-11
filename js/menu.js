@@ -45,4 +45,10 @@
     "name": "Github",
     "img": "url('search\/github.svg')",
     "url": "https:\/\/github.com\/search?q="
+},
+{
+    "id": 8,
+    "name": "Google 镜像",
+    "img": "url('search\/google.svg')",
+    "url": "https:\/\/note.cm\/search?q="
 }];
