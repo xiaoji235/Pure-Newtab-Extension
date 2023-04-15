@@ -513,7 +513,7 @@ button#close-localbg {
         text-decoration: none;
     }
     .url-icon{
-        width: 8%;
+        width: 100px;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
