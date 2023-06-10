@@ -48,7 +48,7 @@
 },
 {
     "id": 8,
-    "name": "Google 镜像",
+    "name": "谷歌镜像",
     "img": "url('search\/google.svg')",
     "url": "https:\/\/note.cm\/search?q="
 }];
