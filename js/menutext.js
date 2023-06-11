@@ -110,7 +110,7 @@ function search() {
         },
         250)
     });
-    for (let e = 0; e < searchEngines.length; e++) $(".search-engine-list").append('<li><span style="background-image:' + searchEngines[e].img + '"/></span>' + searchEngines[e].name + "</li>");
+    for (let e = 0; e < searchEngines.length; e++) $(".search-engine-list").append('<li class="lititle"><span style="background-image:' + searchEngines[e].img + '"/></span>' + searchEngines[e].name + "</li>");
     t.click(function(e) {
         $(".search-engine").toggle(),
         e.stopPropagation()
