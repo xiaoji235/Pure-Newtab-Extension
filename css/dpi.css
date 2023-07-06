@@ -589,7 +589,8 @@
 }
  .drawers{
      transition:all 350ms linear;
-     padding-top: 5%;
+     padding-top: 30px;
+     margin-bottom: 5%;
 }
  #commonly-use-url{
      display: flex;
