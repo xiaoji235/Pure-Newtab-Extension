@@ -38,7 +38,7 @@ function createUrlList(){
                 <svg t="1648322791251" class="maskedImage" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1812" width="200" height="200"><path d="M265.28 310.72a32 32 0 0 1 45.44-45.44l448 448a32 32 0 0 1-45.44 45.44z" p-id="1813" fill="#e6e6e6"></path><path d="M713.28 265.28a32 32 0 0 1 45.44 45.44l-448 448a32 32 0 0 1-45.44-45.44z" p-id="1814" fill="#e6e6e6"></path></svg>
             </div>
             <div class="icon">
-                <img id='imgUrl' draggable="false" alt="" src='${iconUrl}'>
+                <img id='imgUrl' draggable="false" alt="" src='${iconUrl}' onerror="this.src='images/logo.svg'">
             </div>
             <div class="url-title">${title}</div>
         `;
