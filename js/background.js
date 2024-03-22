@@ -7,7 +7,7 @@ backurl=localStorage.getItem("backurl")
 if(backurl){
 	document.getElementsByTagName("bg")[0].style="background-image: url("+backurl+");"
 }else{
-	document.getElementsByTagName("bg")[0].style="background-image: url(https://dl3.img.timecdn.cn/2021/07/06/bg.png!h.webp);"
+	document.getElementsByTagName("bg")[0].style="background-image: url(https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab-Extension/images/bg.png);"
 }
 
 
