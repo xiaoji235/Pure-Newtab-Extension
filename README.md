@@ -1,7 +1,5 @@
 # Pure-Newtab-Extension
 
-<!--![img](https://dl3.img.timecdn.cn/2022/11/19/pure.png)-->
-
 Pure 起始页扩展（Pure 新建标签页浏览器扩展）
 - 扩展版本：`3.1.0`
 - 更新时间：2023-06-11
@@ -18,6 +16,7 @@ Pure 起始页扩展（Pure 新建标签页浏览器扩展）
 
 
 ## 说明
+- 该项目参照[联想主页](https://so.lenovo.com.cn/)样式设计
 - 如果浏览器不支持使用扩展，可以将[此页面](https://pure-newtab.netlify.app)设置成主页！
 - 源码可做扩展、可做web，直接放服务器可访问。
 
