@@ -2,9 +2,9 @@ mode=localStorage.getItem("mode")
 
 
 if(mode=="night"){
-  document.getElementById('theme_css').href = 'css/night.css'
+	document.getElementById('theme_css').href = 'css/night.css'
 }else{
-  document.getElementById('theme_css').href = 'css/day.css'
+	document.getElementById('theme_css').href = 'css/day.css'
 }
 
 

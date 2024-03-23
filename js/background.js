@@ -1,4 +1,4 @@
-/*感谢yanji的技术支持
+/*感谢yanji的技术支持 
 improved by yanji. url:https://simsoft.top, welcome to vsit.*/
 
 backurl=localStorage.getItem("backurl")
@@ -10,17 +10,10 @@ if(backurl){
 	document.getElementsByTagName("bg")[0].style="background-image: url(https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab-Extension/images/bg.png);"
 }
 
-function save(id, name){
-  document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById(id).addEventListener("click", name);
-  });
-}
 
-save(("open-set"), openset)
-
-/*document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("open-set").addEventListener("click", openset);
-});*/
+});
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("save-backimg").addEventListener("click", savebackimg);
 });
