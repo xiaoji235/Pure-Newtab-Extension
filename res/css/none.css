@@ -1,0 +1,77 @@
+
+#start{
+  margin-right: 5px;
+}
+#save-backimg64{
+  margin-left: 5px;
+}
+.close-set, #close-localbg{
+  width: 50%;
+}
+#drawers{
+  opacity: 0;
+  visibility:hidden;
+}
+#notice{
+  display:none;
+  position:fixed;
+}
+#notice .notice_a{
+  width:100%; 
+  height: 95%; 
+  text-align: center;
+}
+#notice .ggl{
+  border-radius:10px; 
+  height:100%; 
+  margin-bottom:15px
+}
+
+
+#setbg, .search-hot-text, #conte{
+  display: none;
+}
+#img{
+  opacity: 0; 
+  width: 100%;
+}
+.bgb{
+  text-align:center;
+}
+
+.foot .s-key, .clock-container{
+  cursor: default;
+}
+
+.foot .yiyan .time, .info{
+  opacity:0;
+}
+
+.search-icon{
+  cursor: pointer; 
+  z-index: 6;
+}
+.nightbtn, .daybtn{
+  margin-right: 5px;
+}
+.show-Add{
+  margin-left: 5px;
+}
+
+.close{
+  text-align: center; 
+  padding-top:20px;
+}
+.close .close-set{
+  width:50%;
+}
+
+#mainbg{
+  position: absolute;
+}
+
+#mainbg #img{
+  position: relative;
+  top: -20px;
+  border: 1px solid red;
+}

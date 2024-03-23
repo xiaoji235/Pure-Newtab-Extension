@@ -1,0 +1,100 @@
+html,
+body,
+footer,
+table,
+iframe,
+div,
+li,
+ul,
+button,
+a,
+i,
+em,
+b,
+img,
+h1,
+h2,
+h3,
+dd {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,
+body,
+footer,
+table,
+iframe,
+div,
+li,
+ul,
+button,
+a,
+i,
+em,
+b,
+img,
+h1,
+h2,
+h3,
+dd {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+@font-face {
+  font-family: iconfont;
+  src: url("fonts/font.woff");
+}
+input,
+button {
+  cursor: pointer;
+}
+.section .set {
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  fill: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.section #open-set,
+.section #clear-set {
+  display: inline-block;
+}
+.section .res_svg {
+  width: 2rem;
+}
+.section #clear-set {
+  width: 2rem;
+  height: 2rem;
+  background: url(../img/clear.png) no-repeat center;
+  background-size: 2rem;
+}
+.section .bgb {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+/**页脚**/
+.foot {
+  color: #dfdfdf;
+}
+.foot a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.foot .foot_sign {
+  padding: 0 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */
