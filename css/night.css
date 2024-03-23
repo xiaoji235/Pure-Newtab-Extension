@@ -196,8 +196,8 @@ a#guanyu {
 	color: #000
 }
 
-a#open-notice {
-	color: #000
+.footer a, span{
+	color: #000;
 }
 
 div#settingpage2 {

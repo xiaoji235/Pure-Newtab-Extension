@@ -1,0 +1,137 @@
+body {
+  background-color: #333333;
+}
+#search {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#search-box .s-key {
+  background-color: rgba(255, 255, 255, 0.35);
+  color: white;
+}
+#search-box .s-btn {
+  color: #888888;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+}
+#search-box .s-btn:hover {
+  color: #6b7184;
+}
+.s-btn i {
+  font-size: 24px;
+  line-height: 50px;
+}
+.search-hot-text {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.search-hot-text .space-line {
+  border-top: 1px solid #f2f2f2;
+}
+.search-hot-text li {
+  color: white;
+}
+.search-hot-text li i {
+  color: #e5e5e5;
+}
+.search-hot-text li.current {
+  background: #f1f1f1;
+  color: black;
+}
+.search-hot-text li:hover {
+  background: #ffffff59;
+  color: black;
+}
+.space-tips .offHistory {
+  color: white;
+}
+.space-tips .offHistory:hover {
+  color: #e2d600;
+}
+.search-engine {
+  background: #FFFFFF59;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.search-engine ul::before {
+  border-bottom: 8px solid #ffffff59;
+}
+.search-engine-list li {
+  background: #fff0;
+  color: #fff;
+}
+.search-engine-list li:hover {
+  background-color: #ffffff59;
+}
+/**天气**/
+div#weather > div > div.info {
+  color: #ffffff;
+}
+.clock-container p {
+  color: white;
+}
+.colon::before {
+  background-color: #ffffff;
+}
+.colon::after {
+  background-color: #ffffff;
+}
+/**一言**/
+div#hitokoto {
+  color: white;
+}
+/**意见反馈**/
+div#yijian {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+.noticetxt {
+  color: #000000;
+}
+/**自定义背景控件**/
+div#setbg {
+  background-color: #fff0;
+}
+div#settingpage {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+/*input#backimg {
+  border-bottom: 1px solid grey;
+  border: 1px solid #eee;
+  color: #333;
+}*/
+/**本地壁纸 base64**/
+div#settingpage2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+/**链接**/
+.url-icon:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.url-title {
+  color: white;
+}
+div#link-set {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(219, 219, 219, 0.8);
+}
+input#title {
+  border-bottom: 1px solid grey;
+  border: 1px solid #eee;
+  color: #333;
+}
+input#url {
+  border-bottom: 1px solid grey;
+  border: 1px solid #eee;
+  color: #333;
+}
+p#link-text {
+  color: #ffff;
+}
+/**链接收藏**/
+img.mylinksbtn:hover {
+  background-color: rgba(225, 225, 225, 0.35);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=day.css.map */

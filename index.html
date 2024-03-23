@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
-    <title>新建标签页</title>
     <meta name="description" content="您的第二个新建标签页">
-    <meta name="keyword" content="pure">
-    <meta name="keyword" content="新建标签页">
-    <meta name="keyword" content="pure起始页">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keyword" content="pure 新建标签页 pure起始页">
     <!--<link href="favicon.ico"rel="SHORTCUT ICON">-->
-    <link href="css/day.css" id="theme_css" rel="stylesheet">
+    <!--<link href="css/day.css" id="theme_css" rel="stylesheet">-->
     <link href="css/dpi.css" rel="stylesheet">
     <link href="css/notice.css" rel="stylesheet">
-    <script src="js/Dynamic.js">
-    </script>
+    <link rel="stylesheet" href="./res/css/main.css">
+
+    <link id="theme_css" rel="stylesheet" href="./res/css/day.css">
+    <link rel="stylesheet" href="./res/css/button.css">
+    <link rel="stylesheet" href="./res/css/none.css">
+    <link rel="stylesheet" href="./res/plug_in/jquery.toast.css">
+    <!--<link rel="stylesheet" href="./res/plug_in/quantumalert.css">-->
+
+
+    <link rel="shortcut icon" href=./res/img/favicon.ico>
+    <title>My Lable</title>
   </head>
-  
+
   <body style="font-size: 16px;">
+
+  <section class="section">
     <h1 style="font-size:0">pure起始页</h1>
     <h1 style="font-size:0">新建标签页</h1>
     <h2 style="font-size:0">您的第二个新建标签页</h2>
@@ -31,29 +35,25 @@
       <bg class="lm-animated-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab-Extension/images/bg.png);">
       </bg>
     </div>
-    <script src="js/jquery-2.1.3.min.js">
-    </script>
-    <script src="js/bg.js">
-    </script>
+
     <!--天气-->
     <div id="weather">
       <div class="container">
-        <div class="info" style="opacity:0;">
+        <div class="info">
           <div class='weather'>
             <img id='weather_icon' class='weather-icon'>
             </img>
-            <span class='temp' style='cursor: default;'>
+            <span class='temp'>
             </span>
           </div>
         </div>
       </div>
-      <script src="js/weather.js">
-      </script>
+
     </div>
     <!--时间-->
-    <div class="time" style="opacity: 0;">
+    <div class="time">
       <div class="container">
-        <div class="clock-container" style="cursor: default;">
+        <div class="clock-container">
           <div class="hours">
             <p id="hour">00</p>
           </div>
@@ -69,18 +69,17 @@
           </div>
         </div>
       </div>
-      <script src="js/time.js">
-      </script>
+
     </div>
     <!--搜索-->
     <div id="search">
       <div id="search-box">
-        <span class="search-icon" style="cursor: pointer; z-index: 6">
+        <span class="search-icon">
         </span>
-        <input type="text" id="s-txt" class="s-key" placeholder="" autocomplete="off" style="cursor: default;" />
-        <button data-v-0b1f3c5b="" class="iconfont" id="search-btn"></button>
+        <input type="text" id="s-txt" class="s-key" placeholder="" autocomplete="off"/>
+        <button class="search-btn iconfont" data-v-0b1f3c5b=""></button>
       </div>
-      <div class="box search-hot-text" id="box" style="display: none">
+      <div id="box" class="box search-hot-text">
         <ul>
         </ul>
       </div>
@@ -89,28 +88,22 @@
         </ul>
       </div>
     </div>
-    <script type="text/javascript" src="js/menutext.js?v=0.2.4.1">
-    </script>
-    <script type="text/javascript" src="js/menu.js">
-    </script>
+
+
     <!--设置背景-->
-    <script src="js/background.js">
-    </script>
-    <div id="open-set" style="cursor: pointer;position:fixed;top:50px;right:20px;background:rgba(0,0,0,0.3);fill:white;border-radius:5px;padding:10px">
-      <svg t="1629864996453" class="set-btn-icon" viewBox="0 0 1105 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2197" width="20" height="20">
-        <path d="M424.36524698 993.03301318c-2.69358333 0-5.50427835-0.35133639-8.19786038-1.17112347-80.69036988-22.36844848-155.17378733-65.2315466-215.48661797-124.13903038-6.32406413-6.20695113-9.60320853-14.87326089-9.13475915-23.65668365 0.46844939-8.78342146 4.80160427-17.09839483 11.82834118-22.48556018 38.52994454-29.98074647 49.18716225-84.2037377 24.82780582-126.24705132-24.47646942-42.16042533-76.70855139-59.96149424-121.79678475-41.92620065-8.19786037 3.39625611-17.56684421 3.04491971-25.41336691-1.05401046-7.84652398-3.98181849-13.70213872-11.2427801-15.81015966-19.79197687-10.30588131-40.63796548-15.45882197-82.32994144-15.45882197-124.02191739 0-41.57486425 5.15294066-83.2668402 15.45882197-124.02191739 2.22513394-8.54919677 7.96363568-15.81015966 15.81015966-19.90908985 7.84652398-4.09893019 17.09839483-4.45026658 25.41336691-1.05401047 44.97112035 18.26951699 97.20320234 0.35133639 121.67967176-41.80908894 24.35935643-41.92620065 13.70213872-96.26630484-24.82780583-126.24705134-7.02673692-5.50427835-11.2427801-13.70213872-11.82834117-22.48556018-0.46844939-8.78342146 2.81069502-17.44973122 9.13475915-23.65668363 60.31283065-58.90748249 134.91336109-101.88769489 215.48661796-124.13903039 8.66630976-2.22513394 17.68395591-0.81978578 25.06203051 3.98181849 7.37807459 4.91871597 12.29679056 12.64812695 13.46791403 21.43154971 6.55828882 48.13315178 48.25026477 84.43796238 96.85186593 84.43796238 34.78235074 0 84.32085068-51.76363387 97.20320233-74.48341746-0.93689877-4.68449127-0.70267408-9.72032023 0.70267408-14.63903618 4.91871597-16.16149605 22.01711081-25.1791435 38.06149515-20.61176396 0 0 0 0 0.11711171 0l0 0 0 0c84.08662598 25.06203051 156.34491079 66.87111946 214.78394388 123.9048057 6.32406413 6.20695113 9.72032023 14.87326089 9.25187085 23.65668365-0.46844939 8.78342146-4.80160427 16.98128183-11.82834117 22.48556018-38.41283155 29.98074647-49.18716225 84.2037377-24.82780583 126.24705133 24.47646942 42.16042533 76.82566438 60.19571894 121.79678475 41.80908895 8.19786037-3.39625611 17.44973122-3.04491971 25.41336691 1.05401046 7.96363568 3.98181849 13.70213872 11.2427801 15.81015965 19.90908986 10.30588131 40.75507717 15.45882197 82.44705443 15.45882198 123.90480568s-5.27005365 83.14972721-15.45882198 124.02191739c-2.22513394 8.54919677-7.96363568 15.81015966-15.81015965 19.79197685-7.96363568 4.09893019-17.09839483 4.45026658-25.41336691 1.05401048-44.97112035-18.1524053-97.32031533-0.23422469-121.79678475 41.92620065-24.35935643 41.92620065-13.70213872 96.26630484 24.82780583 126.24705132 7.02673692 5.38716535 11.2427801 13.58502573 11.82834117 22.48556018s-2.81069502 17.44973122-9.25187085 23.65668364c-60.19571894 58.79037078-134.67913639 101.7705819-215.48661796 124.13903039-8.54919677 2.34224564-17.68395591 0.93689877-24.94491883-3.98181848-7.37807459-4.91871597-12.29679056-12.76523995-13.58502572-21.43154972-6.55828882-48.13315178-48.13315178-84.43796238-96.85186593-84.43796238-48.60160116 0-90.29357711 36.3048106-96.85186593 84.43796238-1.17112347 8.78342146-6.08983943 16.51283374-13.46791403 21.43154972C436.19358944 991.39344032 430.33797471 993.03301318 424.36524698 993.03301318zM266.73210101 845.00307574c40.40374079 34.07967666 86.66309631 60.78128003 136.20159625 78.46523595 22.95400957-60.42994234 81.74438035-102.70748068 148.73261151-102.70748067 66.98823116 0 125.77860194 42.27753705 148.7326115 102.70748067 49.65561163-17.68395591 95.79785546-44.38555927 136.20159626-78.46523595-40.87219017-50.35828571-48.13315178-122.38234583-14.52192451-180.35293082 33.49411557-57.85347201 99.54544796-87.2486574 163.254536-77.52833718 4.68449127-25.99892928 6.90962521-52.34919495 6.90962522-78.46523594 0-26.11604099-2.34224564-52.34919495-6.90962522-78.46523593-63.47486206 10.30588131-129.64330742-19.67486515-163.254536-77.52833717-33.61122857-57.85347201-26.35026567-129.87753213 14.52192451-180.23581785-39.46684201-33.25989088-85.37486115-59.49304486-136.90427033-78.34812422-26.11604099 42.86309941-89.23956665 102.47325598-148.02993743 102.47325598-66.87111946 0-125.66149023-42.27753705-148.73261151-102.70748068-49.53849994 17.56684421-95.79785546 44.26844627-136.20159625 78.58234763 40.87219017 50.35828571 48.13315178 122.38234583 14.5219245 180.23581784-33.61122857 57.85347201-99.19411156 87.59999508-163.137423 77.52833717-4.68449127 25.99892928-7.02673692 52.23208196-7.02673692 78.46523594 0 26.23315398 2.34224564 52.46630666 7.02673692 78.46523594 63.59197505-10.07165662 129.64330742 19.67486515 163.254536 77.64545017C314.74814109 722.50361692 307.60429119 794.64479005 266.73210101 845.00307574z" p-id="2198">
-        </path>
-        <path d="M551.54919708 667.92928933c-87.71710679 0-159.15560581-71.43849903-159.15560583-159.27271753s71.43849903-159.15560581 159.15560583-159.15560581c87.71710679 0 159.15560581 71.43849903 159.1556058 159.15560581S639.26630386 667.92928933 551.54919708 667.92928933zM551.54919708 410.86780709c-53.98876652 0-97.90587642 43.9171099-97.90587642 97.90587643s43.9171099 97.90587642 97.90587642 97.90587638c53.98876652 0 97.7887647-43.9171099 97.7887647-97.90587638S605.53796358 410.86780709 551.54919708 410.86780709z" p-id="2199">
-        </path>
-      </svg>
+    <div class="set">
+      <div id="open-set"><img class="res_svg" src="./res/img/gear.png" alt=""></div>
+      <div id="clear-set"></div>
     </div>
+
+
     <div id="settingpage" style="display:none">
-      <!--网络壁纸-->背景图像（使用网络图片或图床图片）：
-      <br>
-      <input id="backimg" placeholder="请输入完整URL，以https://开头">
-      <div id="bgb" style="text-align:center">
-        <button id="save-backimg" style="margin-right: 5px">保存</botton>
-          <button id="local-bg" style="margin-left: 5px">使用本地壁纸</botton>
+      <!--网络壁纸-->
+      <span>背景图像（使用网络图片或图床图片）：</span>
+      <input id="backimg" value="">
+      <div class="bgb">
+        <button id="save-backimg">保存</button>
+          <button id="local-bg">使用本地壁纸</button>
       </div>
       <!--base64壁纸-->
       <div id="settingpage2" style="display:none">
@@ -119,41 +112,39 @@
           <img id="imgShow" src="" alt=""  onerror="this.src='images/wallpaper.svg'">
         </div>
         <div class="setlocalbg">
-          <buttom id="mainbg">
-            <p style="position: absolute; text-align: center; width: 100%; margin: 0; padding-top: 1px; color: white">选择本地壁纸</p>
-            <input type="file" id="img" style="opacity: 0; width: 100%">
-          </buttom>
+          <button id="mainbg">
+            <p>选择本地壁纸</p>
+            <input id="img" type="file">
+          </button>
           <br />
-          <input id="conte" rows=15 cols=60 style="display: none">
-          <div id="bgb" style="text-align:center">
-            <botton id="start" style="margin-right:5px">确定</botton>
-            <button id="save-backimg64" style="margin-left:5px">保存</botton>
+          <input id="conte" rows=15 cols=60>
+          <div class="bgb">
+            <button id="start" class="start">确定</button>
+            <button id="save-backimg64">保存</button>
           </div>
         </div>
-        <button style="width:50%" id="close-localbg">退出设置</botton>
-          <script src="js/base64.js">
-          </script>
+        <button id="close-localbg">退出设置</button>
+
       </div>
       <!--模式-->
       <br>其他功能：
-      <div id="bgb" style="text-align:center">
-        <button id="nightbtn" style="margin-right: 5px;">Light</button>
-        <button id="daybtn" style="margin-right: 5px;">Dark</button>
-        <button id="show-Add" style="margin-left: 5px;">加个常用链接</button>
+      <div class="bgb" style="text-align:center">
+        <button id="nightbtn" class="nightbtn">Light</button>
+        <button id="daybtn" class="daybtn">Dark</button>
+        <button id="show-Add" class="show-Add">加个常用链接</button>
       </div>
-      <script src="js/mode.js">
-      </script>
+
       <!--设置关闭按钮-->
-      <div style="text-align: center; padding-top:20px">
-        <button style="width:50%" id="close-set">退出设置</botton>
+      <div class="close" style="">
+        <button id="close-set">退出设置</button>
       </div>
     </div>
     </div>
-    <div id="setbg" style="display:none">
+    <div id="setbg">
     </div>
     <!--链接-->
     <div class="links">
-      <div class="drawers" style="opacity: 0;visibility:hidden;">
+      <div class="drawers">
         <div class="mylinks">
           <p id="link-text">快速链接</p>
           <img class="mylinksbtn" id="theme_btn" width="20" height="20" src="images/linkbtn.svg">
@@ -161,58 +152,76 @@
         <div id="commonly-use-url" class="linkis">
         </div>
       </div>
-      <script type="text/javascript" src="js/favor.js">
-      </script>
+
     </div>
     <!--添加链接-->
     <div class="bottom-row-add" id="link-set" style="display:none;">标题:
       <input type="text" class="add-url-title input" id="title" autocomplete="off">URL链接:
       <input type="text" class="add-url input" id="url" placeholder="完整路径（带https://）" autocomplete="off">
       <div id="bgb" style="text-align:center">
-        <br>
-        <button id="addUrl">确定</button>
-        <br>
-        <button id="close-Url">关闭</button>
+        <button id="addUrl" class="addUrl">确定</button>
+        <button id="close-Url" class="close-Url">关闭</button>
       </div>
     </div>
-    <script type="text/javascript" src="js/link.js">
-    </script>
+
     <!--公告-->
-    <script src="js/notice.js">
-    </script>
-    <div id="notice" style="display:none;position:fixed;">
-      <div style="width:100%; height: 95%; text-align: center">
-        <div class="ggl" style="border-radius:10px; height:100%; margin-bottom:15px">
-          <embed src="notice/newtab.html" width="100%" height="100%" style="scrolling:no;">
-          </embed>
-          <button id="close-notice">关闭</button>
+
+    <div id="notice">
+      <div class="notice_a">
+        <div class="ggl" style="">
+          <embed src="notice/newtab.html" width="100%" height="100%" style="scrolling:no;"></embed>
+          <button id="close-notice" class="close-notice">关闭</button>
         </div>
       </div>
     </div>
     <!--一言-->
-    <div class="yiyan" style="opacity: 0;">
+    <div class="yiyan">
       <div class="di" id="hitokoto">获取中...</div>
     </div>
-    <script src="js/yiyan.js">
-    </script>
-    <!--页脚-->
-    <div class="foot" style="cursor: default;opacity:0;">
-      <a class="footp1" href="https://github.com/xiaoji235" style="float:left;text-decoration: none">Pure起始页</a>&nbsp;
-      <p id="footp" style="padding:0 5px">|</p>&nbsp;
-      <a class="footp2" style="float:right;text-decoration: none">
-        <buttom style="cursor: pointer;">
-          <a style="text-decoration: none; color:rgb(255 255 255)" href="https://xiaoji235.github.io/notice/newtab/main.html">关于</a>
-        </buttom>
-      </a>&nbsp;
-      <p id="footp" style="padding:0 5px">|</p>&nbsp;
-      <a class="footp2" href="https://github.com/xiaoji235/Pure-Newtab/issues" style="float:right;text-decoration: none">留言板</a>&nbsp;
-      <p id="footp" style="padding:0 5px">|</p>&nbsp;
-      <a id="open-notice" style="float:right;text-decoration: none">公告</a>
+  </section>
+
+  <footer class="footer">
+    <div class="foot">
+      <a class="foot_a" href="https://github.com/xiaoji235">Pure起始页</a>
+      <span class="foot_sign">|</span>
+      <a class="foot_a" href="https://xiaoji235.github.io/notice/newtab/main.html">关于</a>
+      <span class="foot_sign">|</span>
+      <a class="foot_a" href="https://github.com/xiaoji235/Pure-Newtab/issues">留言板</a>
+      <span class="foot_sign">|</span>
+      <a id="open-notice">公告</a>
     </div>
-    <script src="js/console.js">
-    </script>
-    <script src="js/gjgjr.js">
-    </script>
+  </footer>
+
   </body>
 
 </html>
+
+<script src="./res/js/jquery-2.1.3.min.js"></script>
+<!--<script src="./res/js/seting.js"></script>-->
+<script src="./res/plug_in/jquery.toast.js"></script>
+<script src="./res/js/main.js"></script>
+
+
+
+
+<script src="js/Dynamic.js"></script>
+<script src="js/bg.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/time.js"></script>
+
+<script type="text/javascript" src="js/menutext.js?v=0.2.4.1"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script src="js/background.js"></script>
+
+<script src="js/base64.js"></script>
+<script src="js/mode.js"></script>
+
+<script type="text/javascript" src="js/favor.js"></script>
+<script type="text/javascript" src="js/link.js"></script>
+<script src="js/notice.js"></script>
+<!--<script src="js/yiyan.js"></script>-->
+
+<!--<script src="js/console.js"></script>-->
+<script src="js/gjgjr.js"></script>
+
+
