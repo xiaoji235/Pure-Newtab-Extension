@@ -81,14 +81,6 @@ body {
  div#hitokoto {
      color:white;
 }
-/**意见反馈**/
- div#yijian {
-     background-color:rgba(255,255,255,0.80);
-     box-shadow:0 0 20px 10px rgb(0 0 0 / 10%);
-}
- .noticetxt {
-     color:rgb(0,0,0);
-}
 /**自定义背景控件**/
  div#setbg {
      background-color:#fff0;

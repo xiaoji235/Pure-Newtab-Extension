@@ -107,16 +107,6 @@ div#hitokoto {
 	color: #000
 }
 
-div#yijian {
-	background-color: rgba(30,30,30,.9);
-	backdrop-filter: blur(10px);
-	box-shadow: 0 0 20px 10px rgb(0 0 0 / 10%)
-}
-
-.ggl {
-	background-color: #fff
-}
-
 p#title {
 	color: #fff
 }
@@ -193,10 +183,6 @@ p#footp {
 }
 
 a#guanyu {
-	color: #000
-}
-
-a#open-notice {
 	color: #000
 }
 
