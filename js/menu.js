@@ -2,7 +2,7 @@
     "id": 0,
     "name": "百度",
     "img": "url('search\/baidu.svg')",
-    "url": "https:\/\/www.baidu.com\/s?wd="
+    "url": "https:\/\/www.baidu.com\/s?wd=intitle:"
 },
 {
     "id": 1,
