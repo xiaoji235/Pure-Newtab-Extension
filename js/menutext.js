@@ -8,7 +8,7 @@ function search() {
     o = {
         id: 0,
         name: "百度",
-        url: "https://www.baidu.com/s?wd=",
+        url: "https://www.baidu.com/s?wd=intitle:",
         img: "url('search/baidu.svg')"
     };
     function l(e) {
